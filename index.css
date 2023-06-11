@@ -393,7 +393,7 @@
 }
 
 .fieldName2 {
-    width: 270px;
+    width: 200px;
     height: 60px;
     border-radius: 10px;
     border: 1px solid black
@@ -407,7 +407,7 @@
 
 .fieldEmail2 {
     margin-left: 20px;
-    width: 270px;
+    width: 200px;
     height: 60px;
     border-radius: 10px;
     border: 1px solid black
@@ -420,7 +420,7 @@
 }
 
 .fieldSubject2 {
-    width: 560px;
+    width: 420px;
     height: 60px;
     border-radius: 10px;
     margin-top: 20px;
@@ -437,7 +437,7 @@
 .fieldTextArea2 {
     resize: none;
     margin-bottom: 20px;
-    width: 560px;
+    width: 420px;
     border-radius: 10px;
     border: 1px solid black
 }
@@ -449,7 +449,7 @@
     padding: 15px 32px;
     text-align: center;
     font-size: 20px;
-    width: 270px;
+    width: 200px;
     height: 60px;
     border-radius: 10px;
     
