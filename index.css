@@ -1,0 +1,830 @@
+.logoIMG {
+    margin-left: 10px;
+}
+
+.navbar-nav {
+    font-family: 'Proxima Nova', sans-serif;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 15px;
+    color: white;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+/* Home content */
+/* -------------------------------------- */
+.home {
+    background: url("images/homeBackground.png") no-repeat center;
+
+    height: 100vh;
+    background-size: cover;
+}
+
+.homeContent {
+    margin-top: 250px;
+}
+
+.homeLeft {
+    margin-top: 100px;
+}
+
+.homeText1 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-weight: 200;
+    font-family: 'Proxima Nova', sans-serif;
+
+}
+
+.homeText2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.homeText3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: -15px;
+    font-family: 'Proxima Nova', sans-serif;
+    color: black;
+    font-weight: 200;
+}
+
+.homeText3:hover {
+    color: #004f9b;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CoverImage {
+    max-width: 50%;
+}
+
+/* -------------------------------------- */
+
+
+
+/* About content */
+/* -------------------------------------- */
+.aboutContent {
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235));
+}
+
+.aboutTitle {
+    font-size: 80px;
+    font-weight: 250;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.aboutText1 {
+    text-align: center;
+}
+
+
+/*The following X-lines of code is the slideshow on the top half, to the leftside on the about section
+/*Here is the slideshow block*/
+.SlideshowTOTAL {
+    list-style: none;
+    margin-top: 80px;
+}
+
+.SlideshowAbout {
+    display: inline-block;
+    border: solid black 3px;
+}
+
+#slider {
+    margin: auto;
+    width: 500px;
+    height: 335px;
+}
+
+#slider a {
+    position: inline-block;
+    text-align: center;
+}
+
+.slide a img {
+    padding: 10px;
+    border: 1px solid #000000;
+    background: #fff;
+}
+
+#slider a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    z-index: 20;
+}
+
+#slider a:nth-of-type(2) {
+    z-index: 10;
+}
+
+#slider a:nth-of-type(n+2) {
+    display: none;
+}
+
+@keyframes fader {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0
+    }
+
+    ;
+}
+
+.individualCaption {
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+/* Recipes content */
+/* -------------------------------------- */
+/*here is the header of the recipe page*/
+.recipes {
+    margin-top: -100px;
+
+}
+
+.contentRecipes {
+    background-image: linear-gradient(rgb(235, 235, 235), rgb(255, 255, 255));
+
+
+}
+
+.recipesHeader {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Proxima Nova', sans-serif;
+    list-style: none;
+    font-weight: 250;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    transform: translateY(150%);
+    color: #000000;
+}
+
+
+/*The navigation for each box*/
+.recipe__links {
+    list-style: none;
+}
+
+.recipe__links li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipe__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.recipe__links li a:hover {
+    color: #b4b5b9;
+}
+
+
+/*How each and every box looks / with the overlay when you hover*/
+/*All the boxes*/
+.boxesALL {
+    margin-top: 200px;
+    text-align: center;
+}
+
+/*Each individual box*/
+.Box {
+    position: relative;
+    width: 350px;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+
+}
+
+/*The overlay text*/
+.image__overlay {
+    font-family: 'Proxima Nova', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .30s;
+}
+
+/*The blur when you hover*/
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+/*Whenever you hover you can see the text*/
+.image__overlay:hover {
+    opacity: 1;
+}
+
+/*The top title and the lower caption*/
+.image__title {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.image__description {
+    margin-top: .25em;
+    text-align: center;
+}
+
+.RecipesDesc {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+/* BUY content */
+/* -------------------------------------- */
+.buyContent {
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+
+.buyHeader {
+    font-size: 90px;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 200;
+}
+
+.PAYPAL {
+    height: 500px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom:30px;
+}
+
+.ZELLE {
+    height: 500px;
+}
+
+.paypalText {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 200;
+    margin-right: 100px;
+}
+
+.zelleText {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    font-weight: 200;
+    margin-left: 100px;
+
+}
+
+
+/* -------------------------------------- */
+
+
+
+
+
+/* connect content */
+/* -------------------------------------- */
+.connectHeader {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Proxima Nova', sans-serif;
+    list-style: none;
+    font-weight: 250;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: #000000;
+}
+
+.leftConnect {
+    margin-right: 80px;
+}
+
+.leftConnectHeader {
+    font-size: 50px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.leftConnectDesc {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 250;
+}
+
+.leftConnectPicture {
+    max-width: 80%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.emailConnect {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 250;
+}
+
+.addressConnect {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 250;
+}
+
+.phoneConnect {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 250;
+}
+
+
+.rightConnectHeader {
+    font-size: 50px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.fieldName {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 100;
+}
+
+.fieldName2 {
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.fieldEmail {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 100;
+}
+
+.fieldEmail2 {
+    margin-left: 20px;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.fieldSubject {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 100;
+}
+
+.fieldSubject2 {
+    width: 560px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black
+}
+
+.fieldTextArea {
+    font-size: 25px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 100;
+}
+
+.fieldTextArea2 {
+    resize: none;
+    margin-bottom: 20px;
+    width: 560px;
+    border-radius: 10px;
+    border: 1px solid black
+}
+
+.submitButton {
+    background-color: #004f9b;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whiteSpace {
+    height: 200px;
+}
+
+/* -------------------------------------- */
+
+
+
+@media (max-width: 1202px) {
+
+    /* Home content */
+    /* -------------------------------------- */
+    .home {
+        height: 110vh
+    }
+
+    .homeContent {
+        margin-top: 0px;
+    }
+
+    .homeText1 {
+        font-size: 20px;
+    }
+
+    .homeText2 {
+        font-size: 48px;
+    }
+
+    .homeText3 {
+        font-size: 23px;
+        margin-bottom: 70px;
+        ;
+    }
+
+
+
+    /* About content */
+    /* -------------------------------------- */
+    .aboutcontent {
+        margin-top: 50px
+    }
+
+    .aboutTitle {
+        font-size: 35px;
+        margin-bottom: -20px;
+
+    }
+
+    .aboutText1 {
+        text-align: center;
+    }
+
+    .teamPhoto {
+        margin-top: 50px;
+        margin-bottom: 0%;
+    }
+
+    .SlideshowTOTAL {
+        opacity: 0;
+        display: none;
+
+    }
+
+    #slider {
+        width: 10px;
+        display: none;
+    }
+
+    .individualCaption {
+        opacity: 0;
+        display: none;
+    }
+
+    .slideShowALL {
+        display: none;
+    }
+
+    /* Recipes content */
+    /* -------------------------------------- */
+    .contentRecipes {
+        background-color: #f3f3f3;
+        margin-top: -100px;
+    }
+
+    .recipesHeader {
+        font-size: 35px;
+        margin-top: 100px;
+        transform: translateY(30%);
+        font-family: 'Proxima Nova', sans-serif;
+    }
+
+    .boxesALL {
+        margin-top: 50px;
+    }
+
+    .Box {
+        position: relative;
+        width: 155px;
+    }
+
+    .Box9 {
+        display: none;
+    }
+
+    .image__overlay {
+        font-family: 'Proxima Nova', sans-serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity .30s;
+    }
+
+    /*The blur when you hover*/
+    .image__overlay--blur {
+        backdrop-filter: blur(5px);
+    }
+
+    /*Whenever you hover you can see the text*/
+    .image__overlay:hover {
+        opacity: 1;
+    }
+
+    /*The top title and the lower caption*/
+    .image__title {
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 0px;
+    }
+
+    .image__description {
+        margin-top: -10px;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 100
+    }
+
+
+
+    /*The navigation for each box*/
+    .recipe__links {
+        list-style: none;
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    .recipe__links li {
+        display: inline-block;
+        padding: 7px;
+    }
+
+    .recipe__links li a {
+        transition: all 0.3s ease 0s;
+    }
+
+    .recipe__links li a:hover {
+        color: #b4b5b9;
+    }
+
+    .RecipesDesc {
+        font-size: 11px;
+        margin-left: 38px;
+        margin-right: 38px;
+    }
+
+    /* Buy content */
+    /* -------------------------------------- */
+    .buyHeader {
+        font-size: 52px;
+        margin-bottom: 10px;
+    }
+
+    .paypalText {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .zelleText {
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    .paypalImage {
+        width: 300px;
+        transform: translateY(-100%)
+    }
+
+    .zelleImage {
+        width: 250px;
+    }
+    .PAYPAL{
+        max-width:655px;
+        border-bottom: 1px solid black
+    }
+
+    .ZELLE{
+        max-width:655px;
+    }
+    /* connect content */
+    /* -------------------------------------- */
+    .connectHeader {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Proxima Nova', sans-serif;
+        list-style: none;
+        font-weight: 250;
+        margin-top: 0px;
+        margin-bottom: 60px;
+        color: #000000;
+    }
+
+    .leftConnectHeader {
+        font-size: 30px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 300;
+
+        text-align:center;
+        margin-left:30px;
+    }
+
+    .leftConnectDesc {
+        text-align:center;
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 250;
+        margin-left:30px;
+        margin-top:-30px;
+        margin-right:-30px;
+    }
+
+    .leftConnectPicture {
+        max-width: 60%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        margin-left:30px;
+    }
+
+    .emailConnect {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 250;
+        margin-left:30px;
+    }
+
+    .addressConnect {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 250;
+        margin-left:30px;
+    }
+
+    .phoneConnect {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 250;
+        margin-left:30px;
+    }
+
+
+    .rightConnectHeader {
+        font-size: 30px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 300;
+        margin-bottom: 30px;
+        margin-top:100px;
+        margin-left:30px;
+    }
+
+    .fieldName {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 100;
+    }
+
+    .fieldName2 {
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left:30px;
+        border: 1px solid black
+    }
+
+    .fieldEmail {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 100;
+    }
+
+    .fieldEmail2 {
+        margin-left: 20px;
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+        margin-left:10px;
+        border: 1px solid black
+    }
+
+    .fieldSubject {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 100;
+    }
+
+    .fieldSubject2 {
+        width: 330px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:30px;
+        border: 1px solid black
+    }
+
+    .fieldTextArea {
+        font-size: 15px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 100;
+    }
+
+    .fieldTextArea2 {
+        resize: none;
+        margin-bottom: 20px;
+        width: 330px;
+        border-radius: 10px;
+        margin-left:30px;
+        border: 1px solid black
+    }
+
+    .submitButton {
+        background-color: #004f9b;
+        /* Green */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left:30px;
+    }
+
+
+
+    .whitespace{
+        height:100px;
+    }
+
+
+
+
+}

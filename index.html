@@ -1,0 +1,599 @@
+<!-- This imports the proxima nova font -->
+<link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+<style>
+    @import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+</style>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <!-- NAV BAR -->
+    <!---------------------------------->
+    <section id="home"></section>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="min-height:85px; background-color: #004f9b" ;>
+
+        <!-- SSG Cookbook Logo -->
+        <row>
+            <a href=""><img src="images/ssgCBlogo.png" class="logoIMG" style=" max-width: 15%;"></a>
+
+            <!-- Hamburger icon -->
+            <button class="navbar-toggler ml-auto" style="float: right" type="button" data-toggle="collapse"
+                data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+        </row>
+
+        <!-- NAV BAR CONTENT -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recipes">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buy">Buy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#connect">Connect</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!---------------------------------->
+
+
+
+
+    <!-- HOME -->
+    <!---------------------------------->
+    <div class="home row">
+        <div class="homeContent">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 homeleft">
+                    <div class="homeText1">Delicious, easy recipes</div>
+                    <div class="homeText2">SSG Cookbook</div>
+                    <a href="#buy">
+                        <div class="homeText3">Buy now!</div>
+                    </a>
+                </div>
+                <div class="col-md-4 homeright">
+                    <a href="#buy">
+                        <div class="d-flex justify-content-center"><img src="images/CBCover.png" style="max-width:75%">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------->
+
+
+
+
+
+
+
+    <!-- ABOUT -->
+    <!---------------------------------->
+    <section id="about"></section>
+    <div class="about row">
+        <div class="aboutContent">
+
+            <div class="row d-flex justify-content-center">
+                <div class="aboutTitle">About the Authors</div>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-5">
+                    <div class="aboutText1" style="margin-top:60px; margin-left:40px; margin-right:40px;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta tempore labore distinctio id
+                        suscipit, eius, et ipsa exercitationem voluptatem laudantium sapiente! Eum quas esse ab
+                        similique exercitationem et soluta! Ducimus.
+                        Doloremque voluptate ipsam rem iste iure fugit dolore alias illum est, modi, suscipit, itaque
+                        rerum porro! Ducimus sapiente necessitatibus et sit temporibus. Numquam, maiores eius?
+                        Reiciendis at nemo dolorem. Accusamus.
+                        Expedita, iure enim nihil optio sit dolore aliquam, nostrum natus, repellendus culpa quibusdam.
+                        Harum possimus dolores aliquam officia debitis, laudantium </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="d-flex justify-content-center"><img src="images/teamPhoto.jpg"
+                            style="margin-top:50px; max-width:90%"></div>
+                </div>
+            </div>
+
+            <div class="slideShowALL row d-flex justify-content-center">
+
+                <!-- This is the whole slideshow containing all the team members faces-->
+                <li class="SlideshowTOTAL">
+                    <div class="SlideshowAbout">
+                        <div id="slider">
+
+                            <!-- all the pictures with the corresponding linkedins -->
+                            <a href="https://www.linkedin.com/in/ojaswithapa"><img src="images/TeamPictures/Ojaswi.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/anthony-plascencia-a5b907265"><img
+                                    src="images/TeamPictures/Anthony.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/damberbokati/"><img
+                                    src="images/TeamPictures/Damber.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/iammaxlichter/"><img src="images/TeamPictures/Max.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/katharinekarau"><img src="images/TeamPictures/Kat.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/eric-provencio-5bb140266"><img
+                                    src="images/TeamPictures/Eric.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/alena-raza"><img src="images/TeamPictures/Alena.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/araceli-ramirez78"><img
+                                    src="images/TeamPictures/Araceli.jpg" style="width:485px"></a>
+                            <a href="https://www.linkedin.com/in/bethany-atencio-9a8207253"><img
+                                    src="images/TeamPictures/BethanyA.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/bethany-merino-a2961a222/"><img
+                                    src="images/TeamPictures/BethanyM.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/brian-richardson-250596227"><img
+                                    src="images/TeamPictures/Brian.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/emily-piccirillo-1b0604236"><img
+                                    src="images/TeamPictures/Emily.jpg" style="width:486px"></a>
+                            <a href="https://www.linkedin.com/in/michael-crock-106a7b225/"><img
+                                    src="images/TeamPictures/Michael.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/mollyryan917/"><img src="images/TeamPictures/Molly.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/rileyhenigan/"><img src="images/TeamPictures/Riley.jpg"
+                                    style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/savana-bickelhaupt-222285249"><img
+                                    src="images/TeamPictures/Savana.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/sophiaenderle"><img
+                                    src="images/TeamPictures/Sophia.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/zeeshan-yazdani-059b091bb/"><img
+                                    src="images/TeamPictures/Zeeshan.jpg" style="width:500px"></a>
+
+                        </div>
+                    </div>
+
+                    <!-- This script just makes it so the slideshow actually works and goes from person to person -->
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            var fadeComplete = function (e) { stage.appendChild(arr[0]); };
+
+                            var stage = document.getElementById("slider");
+                            var arr = stage.getElementsByTagName("a");
+                            for (var i = 0; i < arr.length; i++) {
+                                arr[i].addEventListener("animationend", fadeComplete, false);
+                            }
+                        }, false);
+                    </script>
+                </li>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="individualCaption d-flex justify-content-center">Here we have each and every interns
+                    indivudal photo. <br> Click on their photo to view their LinkedIn! </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!---------------------------------->
+
+
+
+
+
+    <!-- RECIPES -->
+    <!---------------------------------->
+
+    <section id="recipes" class="recipes">
+        <div class="contentRecipes">
+            <div class="recipesContent">
+
+                <!-- these two lines are the text right about the images of the food -->
+                <div class="recipesHeader">Recipes Preview</div>
+
+                <div class="boxesAll">
+                    <!-- All of the navigation between each recipe -->
+                    <nav>
+
+                        <!--creating the list-->
+                        <ul class="recipe__links">
+
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">MoMo</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Damber Bokati
+                                                <br>
+                                                A Tipical Nepalese Cuisine
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <div class="Box">
+
+                                    <!--The actual background image-->
+                                    <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                    <!--The blur when you hover and the text inside the blur-->
+                                    <div class="image__overlay image__overlay--blur">
+                                        <div class="image__title">Recipe Title</div>
+                                        <p class="image__description">
+                                            <br>
+                                            Recipe Author
+                                            <br>
+                                            brief recipe description
+                                        </p>
+                                    </div>
+
+                                </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                            <!--Recipe's Box-->
+                            <li>
+                                <a href="#buy">
+                                    <div class="Box Box9">
+
+                                        <!--The actual background image-->
+                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+
+                                        <!--The blur when you hover and the text inside the blur-->
+                                        <div class="image__overlay image__overlay--blur">
+                                            <div class="image__title">Recipe Title</div>
+                                            <p class="image__description">
+                                                <br>
+                                                Recipe Author
+                                                <br>
+                                                brief recipe description
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="RecipesDesc" style="text-align:center;">All of these recipes were donated by SSG employees,
+                    friends, and family.<br> Just hover over image to see what the recipe is all about! (click the image
+                    if you are are on mobile)</div>
+            </div>
+    </section>
+
+
+    <!-- Buy -->
+    <!---------------------------------->
+    <div id="buy" class="buy row">
+        <div class="buyContent" style="border-top:5px solid black">
+
+            <div class="row d-flex justify-content-center">
+                <div class="buyHeader" style="text-align:center;">Buy Now</div>
+            </div>
+
+            <div class="PAYPAL row justify-content-md-center">
+                <div class="col-md-5 buyleft1">
+                    <div class="PaypalText">Step 1: unt reprehenderit aliquid ipsum quis!
+                        <br>Step 2: nt reprehenderit aliquid ipsum quis! iquid ipsum quis!
+                        <br>Step 3: nt reprehe nt reprehe nt reprehe nt reprehent reprehe
+                        <br>Step 4: nt reprehehent reprehe
+                    </div>
+                </div>
+                <div class="col-md-4 buyright2">
+                    <a
+                        href="https://www.paypal.com/paypalme/SSGCookbook?v=1&utm_source=unp&utm_medium=email&utm_campaign=RT000269&utm_unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&ppid=RT000269&cnac=US&rsta=en_US%28en-US%29&cust=7HB4Z9TWJHMUY&unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&calc=f602033308832&unp_tpcid=ppme-social-user-profile-created&page=main%3Aemail%3ART000269&pgrp=main%3Aemail&e=cl&mchn=em&s=ci&mail=sys&appVersion=1.175.0&xt=104038%2C124817">
+                        <div class="d-flex justify-content-center"><img src="images/paypal.png" class="paypalImage"
+                                style="margin-top:110px; max-width:100%">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="ZELLE row justify-content-md-center" style="border-bottom:5px solid black;">
+                <div class="col-md-4 buyleft2">
+                    <a href="#buy">
+                        <div class="d-flex justify-content-center"><img src="images/zelle.png" class="zelleImage"
+                                style="margin-top:70px; max-width:80%">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-5 buyright2">
+                    <div class="ZelleText">Step 1: unt reprehenderit aliquid ipsum quis!
+                        <br>Step 2: nt reprehenderit aliquid ipsum quis! iquid ipsum quis!
+                        <br>Step 3: nt reprehe nt reprehe nt reprehe nt reprehent reprehe
+                        <br>Step 4: nt reprehehent reprehe
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------------------------------->
+
+
+
+
+
+
+    <!-- Connect -->
+    <!---------------------------------->
+
+
+    <br id="connect">
+    <br>
+    <br>
+    <br>
+
+    <section class="connect">
+        <div class="row d-flex justify-content-center">
+            <div class="connectHeader" style="text-align:center;">Contact Us</div>
+        </div>
+        <div class="connectContent">
+
+            <div class="row justify-content-md-center">
+
+                <!-- LEFT SIDE OF CONNECT -->
+                <div class="leftConnect col-md-4 justify-content-center">
+
+                    <!-- get in touch -->
+                    <div class="row justify-content-start">
+                        <div class="leftConnectHeader" style="text-align:start;">Get in touch</div>
+                    </div>
+
+                    <!-- desc under 'get in touch' -->
+                    <div class="row  justify-content-start">
+                        <div class="leftConnectDesc" style="text-align:start;">If you have any questions please reach out to us through text or email on the contact details
+                            provided below. Also, you can provide your information and send us a message and we will contact
+                            you shortly. Thank you!</div>
+                    </div>
+
+                    <!-- ssg logo -->
+                    <div class="row justify-content-start"><img src="images/ssglogo.png" class="leftConnectPicture">
+                    </div>
+
+                    <!-- address -->
+                    <div class="row justify-content-start">
+                        <div class="addressConnect">Address<br>2535-B TX-121 #110, Lewisville, Texas<br><br></div>
+                    </div>
+                    
+                    
+                    <!-- email -->
+                    <div class="row justify-content-start">
+                        <div class="emailConnect">Email<br>fhoover@southwestsolutions.com<br><br></div>
+                    </div>
+
+                    <!-- phone -->
+                    <div class="row  justify-content-start">
+                        <div class="phoneConnect">Phone<br>+1(214)442-9789</div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE OF CONNECT -->
+                <div class="rightConnect col-md-4">
+                    
+                    <!-- message us -->
+                    <div class="row justify-content-start">
+                        <div class="rightConnectHeader" style="text-align:start;">Message Us</div>
+                    </div>
+
+                    <form action="https://formspree.io/f/xpzegdnq" method="POST">
+                        
+                        <!-- name and email of connect -->
+                        <div class = "InputConnect1 row InputConnect1 justify-content-start">
+                            <div class="fieldName">
+                                <input class="fieldName2" type="text" placeholder="Name" required>
+                            </div>
+
+                            <div class="fieldEmail">
+                                <input class="fieldEmail2" type="email" name="email" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <!-- subject and message of connect -->
+                        <div class = "InputConnect2 justify-content-start">
+                            <div class="fieldSubject row justify-content-start">
+                                <input class="fieldSubject2" type="text" placeholder="Subject" required>
+                            </div>
+    
+                            <div class="fieldTextArea row justify-content-start">
+                                <textarea cols="30" rows="10" class="fieldTextArea2" placeholder="Message.." required></textarea>
+                            </div>
+                        </div>
+
+                        <!-- send message button -->
+                        <div class="button-area  row justify-content-start">
+                            <button class = "submitButton" type="submit">Send message</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>  
+
+          
+
+
+
+
+
+
+
+    <!---------------------------------->
+    <div class = "whitespace"></div>
+</body>
+
+</html>
