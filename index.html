@@ -78,20 +78,39 @@
     <div class="home row">
         <div class="homeContent">
             <div class="row justify-content-md-center">
-                <div class="col-md-4 homeleft">
-                    <div class="homeText1">Delicious, easy recipes</div>
-                    <div class="homeText2">SSG Cookbook</div>
+            <div class="leftHome col-md-3.5 justify-content-center">
+
+                <!-- get in touch -->
+                <div class="row justify-content-start">
+                    <div class="homeText1" style="text-align:start;">Delicious, easy recipes</div>
+                </div>
+
+                <!-- desc under 'get in touch' -->
+                <div class="row  justify-content-start">
+                    <div class="homeText2" style="text-align:center;">SSG Cookbook</div>
+                </div>
+
+                <!-- address -->
+                <div class="row justify-content-center">
                     <a href="#buy">
-                        <div class="homeText3">Buy now!</div>
+                        <div class="homeText3">Buy now, Only $20!</div>
                     </a>
                 </div>
-                <div class="col-md-4 homeright">
-                    <a href="#buy">
-                        <div class="d-flex justify-content-center"><img src="images/CBCover.png" style="max-width:75%">
-                        </div>
-                    </a>
-                </div>
+
             </div>
+
+            <div class="rightHome col-md-3 justify-content-center">
+
+                <!-- ssg logo -->
+                <div class="row justify-content-end"><img src="images/CBCover.png" class="CBCover">
+                </div>
+
+            </div>
+            </div>
+
+
+
+
         </div>
     </div>
     <!---------------------------------->
@@ -138,14 +157,14 @@
                         <div id="slider">
 
                             <!-- all the pictures with the corresponding linkedins -->
+                            <a href="https://www.linkedin.com/in/damberbokati/"><img
+                                src="images/TeamPictures/Damber.jpg" style="width:500px"></a>
+                            <a href="https://www.linkedin.com/in/iammaxlichter/"><img src="images/TeamPictures/Max.jpg"
+                                style="width:500px"></a>
                             <a href="https://www.linkedin.com/in/ojaswithapa"><img src="images/TeamPictures/Ojaswi.jpg"
                                     style="width:500px"></a>
                             <a href="https://www.linkedin.com/in/anthony-plascencia-a5b907265"><img
                                     src="images/TeamPictures/Anthony.jpg" style="width:500px"></a>
-                            <a href="https://www.linkedin.com/in/damberbokati/"><img
-                                    src="images/TeamPictures/Damber.jpg" style="width:500px"></a>
-                            <a href="https://www.linkedin.com/in/iammaxlichter/"><img src="images/TeamPictures/Max.jpg"
-                                    style="width:500px"></a>
                             <a href="https://www.linkedin.com/in/katharinekarau"><img src="images/TeamPictures/Kat.jpg"
                                     style="width:500px"></a>
                             <a href="https://www.linkedin.com/in/eric-provencio-5bb140266"><img
@@ -209,10 +228,11 @@
     <!-- RECIPES -->
     <!---------------------------------->
 
-    <section id="recipes" class="recipes">
+    <section class="recipes">
         <div class="contentRecipes">
-            <div class="recipesContent">
+            <div  class="recipesContent">
 
+                <div class ="recipesID" id="recipes"></div>
                 <!-- these two lines are the text right about the images of the food -->
                 <div class="recipesHeader">Recipes Preview</div>
 
@@ -225,200 +245,200 @@
 
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/Momo.jpg" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">MoMo</div>
+                                            <div class="image__title">Momo</div>
                                             <p class="image__description">
                                                 <br>
-                                                Damber Bokati
+                                                by Damber Bokati
                                                 <br>
-                                                A Tipical Nepalese Cuisine
+                                                A typical Nepalese Cuisine.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                                
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/Wontons.jpg" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Green Chile Wontons</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                by Todd Richardson
                                                 <br>
-                                                brief recipe description
+                                                An Asian-Mexican fusion delight.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                              
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/taco.jpg" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Vegan Crispy BBQ Broccoli Tacos</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                by Faith Hoover
                                                 <br>
-                                                brief recipe description
+                                                A elegant twist on a staple food.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                                
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/ribs.jfif" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">3-2-1 Ribs</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                by Heidi Clark
                                                 <br>
-                                                brief recipe description
+                                                A fool proof method of making perfect and delicious ribs!
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                             
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/bawl.jfif" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Oatmeal Peanut Butter Protein Balls</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                By Kendra Foss
                                                 <br>
-                                                brief recipe description
+                                                A quick & easy breakfast sweet treat.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                               
                             </li>
                             <!--Recipe's Box-->
                             <li>
                                 <div class="Box">
 
                                     <!--The actual background image-->
-                                    <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                    <img class="image__img" src="images/recipesPictures/banana.jfif" alt="Apollo">
 
                                     <!--The blur when you hover and the text inside the blur-->
                                     <div class="image__overlay image__overlay--blur">
-                                        <div class="image__title">Recipe Title</div>
+                                        <div class="image__title">The BEST Banana Bread</div>
                                         <p class="image__description">
                                             <br>
-                                            Recipe Author
+                                            Katherine Callahan
                                             <br>
-                                            brief recipe description
+                                            A family speciality that can't go wrong!
                                         </p>
                                     </div>
 
                                 </div>
-                                </a>
+                                
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/dal.jpg" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Dal Khichdi</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                by Vaibhavi Trivedi
                                                 <br>
-                                                brief recipe description
+                                                A satisfying meal not just for your gut, but for you mind too.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                                
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/jalapeno.jfif" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Jalapeno Poppers (shortcut version)</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                Lori Channel
                                                 <br>
-                                                brief recipe description
+                                                Healthy, hearty, and full of taste.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                             
                             </li>
                             <!--Recipe's Box-->
                             <li>
-                                <a href="#buy">
+                                
                                     <div class="Box Box9">
 
                                         <!--The actual background image-->
-                                        <img class="image__img" src="images/food.jpg" alt="Apollo">
+                                        <img class="image__img" src="images/recipesPictures/apple.jpg" alt="Apollo">
 
                                         <!--The blur when you hover and the text inside the blur-->
                                         <div class="image__overlay image__overlay--blur">
-                                            <div class="image__title">Recipe Title</div>
+                                            <div class="image__title">Apple Pecan Salad</div>
                                             <p class="image__description">
                                                 <br>
-                                                Recipe Author
+                                                Brae Shaw
                                                 <br>
-                                                brief recipe description
+                                                An easy and healthy addition to any occasion.
                                             </p>
                                         </div>
 
                                     </div>
-                                </a>
+                           
                             </li>
 
 
@@ -443,7 +463,7 @@
         <div class="buyContent" style="border-top:5px solid black">
 
             <div class="row d-flex justify-content-center">
-                <div class="buyHeader" style="text-align:center;">Buy Now</div>
+                <div class="buyHeader" style="text-align:center;">Buy Now, Only $20!</div>
             </div>
 
             <div class="PAYPAL row justify-content-md-center">
@@ -516,8 +536,10 @@
 
                     <!-- desc under 'get in touch' -->
                     <div class="row  justify-content-start">
-                        <div class="leftConnectDesc" style="text-align:start;">If you have any questions please reach out to us through text or email on the contact details
-                            provided below. Also, you can provide your information and send us a message and we will contact
+                        <div class="leftConnectDesc" style="text-align:start;">If you have any questions please reach
+                            out to us through text or email on the contact details
+                            provided below. Also, you can provide your information and send us a message and we will
+                            contact
                             you shortly. Thank you!</div>
                     </div>
 
@@ -529,8 +551,8 @@
                     <div class="row justify-content-start">
                         <div class="addressConnect">Address<br>2535-B TX-121 #110, Lewisville, Texas<br><br></div>
                     </div>
-                    
-                    
+
+
                     <!-- email -->
                     <div class="row justify-content-start">
                         <div class="emailConnect">Email<br>fhoover@southwestsolutions.com<br><br></div>
@@ -545,16 +567,16 @@
 
                 <!-- RIGHT SIDE OF CONNECT -->
                 <div class="rightConnect col-md-4">
-                    
+
                     <!-- message us -->
                     <div class="row justify-content-start">
                         <div class="rightConnectHeader" style="text-align:start;">Message Us</div>
                     </div>
 
                     <form action="https://formspree.io/f/xpzegdnq" method="POST">
-                        
+
                         <!-- name and email of connect -->
-                        <div class = "InputConnect1 row InputConnect1 justify-content-start">
+                        <div class="InputConnect1 row InputConnect1 justify-content-start">
                             <div class="fieldName">
                                 <input class="fieldName2" type="text" placeholder="Name" required>
                             </div>
@@ -565,26 +587,28 @@
                         </div>
 
                         <!-- subject and message of connect -->
-                        <div class = "InputConnect2 justify-content-start">
+                        <div class="InputConnect2 justify-content-start">
                             <div class="fieldSubject row justify-content-start">
                                 <input class="fieldSubject2" type="text" placeholder="Subject" required>
                             </div>
-    
+
                             <div class="fieldTextArea row justify-content-start">
-                                <textarea cols="30" rows="10" class="fieldTextArea2" placeholder="Message.." required></textarea>
+                                <textarea cols="30" rows="10" class="fieldTextArea2" placeholder="Message.."
+                                    required></textarea>
                             </div>
                         </div>
 
                         <!-- send message button -->
-                        <div class="button-area  row justify-content-start">
-                            <button class = "submitButton" type="submit">Send message</button>
+                        <div class="button-area  row justify-content-start" >
+                            <button class="submitButton" type="submit">Send message</button>
                         </div>
 
                     </form>
                 </div>
-            </div>  
+            </div>
 
-    <!---------------------------------->
-    <div class = "whitespace"></div>
+            <!---------------------------------->
+            <div class="whitespace"></div>
 </body>
+
 </html>
