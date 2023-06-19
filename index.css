@@ -309,7 +309,7 @@ html{
 
 
 .PAYPAL {
-    height: 300px;
+    height: 350px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     margin-bottom:30px;
@@ -317,10 +317,13 @@ html{
 }
 
 .ZELLE {
-    height: 350px;
+    height: 300px;
 
 }
 
+.RMS{
+    height:230px;
+}
 .paypalText {
     font-size: 15px;
     font-family: 'Proxima Nova', sans-serif;
@@ -337,9 +340,20 @@ html{
     margin-top: -20px;
     font-weight: 200;
     margin-left: 50px;
-
 }
 
+.RMSText{
+    font-size: 15px;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 150px;
+    margin-top: -20px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.RaveImage{
+    transform:translateY(20%);
+}
 
 /* -------------------------------------- */
 
@@ -697,6 +711,7 @@ html{
         font-size: 15px;
         margin-left: 40px;
         margin-right: 20px;
+        margin-top:15px;
     }
 
     .paypalImage {
@@ -706,17 +721,26 @@ html{
 
     .zelleImage {
         width: 150px;
-        margin-left:50px;
+        margin-left:70px;
     }
     .PAYPAL{
         max-width:655px;
-        height:540px;
+        height:570px;
         border-bottom: 1px solid black
     }
 
     .ZELLE{
         max-width:655px;
         height:640px;
+    }
+    .RMS{
+        height:450px;
+    }
+    .RaveImage{
+        transform:translateY(-100%)
+    }
+    .RMSText{
+        margin-right:35px;
     }
     /* connect content */
     /* -------------------------------------- */
