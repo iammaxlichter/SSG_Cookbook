@@ -1,0 +1,58 @@
+.home {
+    background: url('./homeBackground.png') no-repeat center center fixed;
+    background-size: cover;
+    color: black; /* Ensure text color is black for better visibility */
+}
+
+.text-column {
+    text-align: left; /* Aligns text to the left */
+}
+
+.text-column p {
+    margin: 0; /* Removes default margin */
+}
+
+.intro-line {
+    font-weight: 100;
+    font-size: 2.5rem; /* 40px on default font-size of 16px */
+    margin-bottom: 20px; /* Adjust spacing between lines */
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 4.25rem; /* 68px on default font-size of 16px */
+    margin-bottom: 20px; /* Adjust spacing between lines */
+}
+
+.call-to-action {
+    font-weight: 100;
+    font-size: 2.6875rem; /* 43px on default font-size of 16px */
+    margin-bottom: 20px; /* Adjust spacing between lines */
+}
+
+.image-column img {
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+    height: 400px; /* Fixed height for the image */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* Smaller base font size for small devices */
+    }
+
+    .intro-line {
+        font-size: 1.75rem; /* Adjusted size based on new base font size */
+    }
+
+    .main-title {
+        font-size: 2.5rem; /* Adjusted size based on new base font size */
+    }
+
+    .call-to-action {
+        font-size: 1.875rem; /* Adjusted size based on new base font size */
+    }
+    .image-column img {
+        margin-top:-100px;
+    }
+}
