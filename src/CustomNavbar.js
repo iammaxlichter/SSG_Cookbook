@@ -10,7 +10,7 @@ function CustomNavbar() {
     };
 
     return (
-        <Navbar expand="lg" variant="dark" style={{ backgroundColor: '#004F9B' }}>
+        <Navbar className='customNavbar' expand="lg" variant="dark" style={{ backgroundColor: '#004F9B' }}>
             <Container fluid>
                 <Navbar.Brand href="#home">
                     <img

@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-body {
+.customNavbar {
   font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 992px) { /* Bootstrap 'lg' breakpoint */
+  .custom-padding-right {
+    padding-right: 3rem; /* Adjust as needed */
+  }
+  .custom-padding-left {
+    padding-left: 3rem; /* Adjust as needed */
+  }
 }
