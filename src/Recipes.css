@@ -1,0 +1,38 @@
+.recipes {
+    overflow: hidden; /* Ensures nothing overflows outside this component */
+}
+
+.mainTitle {
+    z-index: 2; /* Ensures title stays on top */
+    position: relative; /* For z-index to take effect */
+    margin-bottom: 20px; /* Adds some bottom margin for spacing */
+}
+
+.recipe-image-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px; /* Increase bottom margin for better spacing */
+}
+
+.recipe-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Adjust for better readability */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.recipe-image-container:hover .recipe-text {
+    opacity: 1;
+}
+

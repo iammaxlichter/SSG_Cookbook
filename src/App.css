@@ -8,11 +8,27 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.recipes {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 @media (min-width: 992px) { /* Bootstrap 'lg' breakpoint */
   .custom-padding-right {
     padding-right: 3rem; /* Adjust as needed */
   }
   .custom-padding-left {
     padding-left: 3rem; /* Adjust as needed */
+  }
+ 
+}
+
+.mainTitle{
+  font-size:60px;
+}
+
+@media (max-width: 768px) {
+  .mainTitle{
+    font-size:32px;
   }
 }

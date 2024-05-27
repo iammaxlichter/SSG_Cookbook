@@ -7,10 +7,10 @@ import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid compone
 function About() {
     return (
         <div className="about">
-            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '50px', width: '80vw', height: '160vh' }}>
+            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '50px', width: '80vw' }}>
                 <Row>
-                    <Col md={12} className="text-center mainTitle" style={{ paddingBottom: '50px' }}>
-                        <p className="mainTitle" style={{ fontSize: '60px' }}>About the Authors</p>
+                    <Col md={12} className="text-center mainTitle" style={{  }}>
+                        <p className="mainTitle">About the Authors</p>
                     </Col>
                 </Row>
                 <Row>
