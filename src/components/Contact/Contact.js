@@ -8,8 +8,8 @@ import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-sv
 
 function Contact() {
     return (
-        <div className="contact">
-            <Container fluid className='align-items-center justify-content-center' style={{ paddingBottom: '75px', paddingTop: '50px', width: '75vw' }}>
+        <div id="contact" className="contact">
+            <Container fluid className='align-items-center justify-content-center' style={{ paddingBottom: '75px', paddingTop: '70px', width: '75vw' }}>
                 <Row>
                     <Col md={12} className="text-center mainTitle" style={{}}>
                         <p className="mainTitle">Contact Us</p>

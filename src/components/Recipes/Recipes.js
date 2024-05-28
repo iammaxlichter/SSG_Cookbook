@@ -27,7 +27,7 @@ const recipes = [
 
 function Recipes() {
     return (
-        <div className="recipes">
+        <div id="recipes" className="recipes">
             <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '100px', width: '80%' }}>
                 <Row className="mb-2">
                     <Col md={12} className="text-center mainTitle">

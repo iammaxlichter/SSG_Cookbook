@@ -7,11 +7,13 @@ import logo from '../../assets/images/MiscPhotos/ssgCBlogo.png';  // Make sure t
 function CustomNavbar() {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
-        section.scrollIntoView({ behavior: 'smooth' });
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     return (
-        <Navbar className='customNavbar' expand="lg" variant="dark" style={{ backgroundColor: '#004F9B' }}>
+        <Navbar className='customNavbar' expand="lg" variant="dark" sticky="top" style={{ backgroundColor: '#004F9B' }}>
             <Container fluid>
                 <Navbar.Brand href="#home">
                     <img
@@ -22,7 +24,7 @@ function CustomNavbar() {
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav" style={{ marginLeft: '10px'}}>
+                <Navbar.Collapse id="responsive-navbar-nav" style={{ marginLeft: '10px' }}>
                     <Nav className="ms-auto">
                         <Nav.Link onClick={() => scrollToSection('home')} style={{ fontSize: '17px', fontWeight: 600, marginRight: '9px' }} className="nav-link-custom">Home</Nav.Link>
                         <Nav.Link onClick={() => scrollToSection('about')} style={{ fontSize: '17px', fontWeight: 600, marginRight: '9px' }} className="nav-link-custom">About</Nav.Link>

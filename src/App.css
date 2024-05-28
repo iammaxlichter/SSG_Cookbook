@@ -39,3 +39,6 @@
     font-size:32px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}

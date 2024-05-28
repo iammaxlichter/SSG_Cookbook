@@ -6,7 +6,7 @@ import teamPhoto from  '../../assets/images/AboutPhotos/teamPhoto.jpg';
 
 function About() {
     return (
-        <div className="about">
+        <div id="about" className="about">
             <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '100px', width: '80vw' }}>
                 <Row>
                     <Col md={12} className="text-center mainTitle" style={{  }}>

@@ -8,8 +8,8 @@ import Paypal from '../../assets/images/BuyPhotos/paypal.png';
 
 function Buy() {
     return (
-        <div className="buy" style={{ backgroundColor: '#004F9B', paddingBottom: '80px' }}>
-            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '50px', width: '80vw' }}>
+        <div id="buy" className="buy" style={{ backgroundColor: '#004F9B', paddingBottom: '80px' }}>
+            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '55px', width: '80vw' }}>
                 <Row>
                     <Col md={12} className="text-center mainTitle">
                         <p className="mainTitle" style={{ color: 'white' }}>Buy Now, Only $25!</p>

@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid compone
 function Home() {
     return (
 
-        <div className="home">
+        <div id="home" className="home">
             <Container fluid style={{width: '80vw'}}>
                 <Row className="align-items-center justify-content-center" style={{ height: '100vh' }}>
                     <Col md={6} className="text-column text-center align-items-center justify-content-center">
