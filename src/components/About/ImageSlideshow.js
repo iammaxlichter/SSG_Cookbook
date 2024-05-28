@@ -7,7 +7,7 @@ function importAll(r) {
     return images;
 }
 
-const images = importAll(require.context('../assets/images/AboutPhotos', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../assets/images/AboutPhotos', false, /\.(png|jpe?g|svg)$/));
 
 // Array of interns with their images and corresponding LinkedIn URLs
 const internProfiles = [

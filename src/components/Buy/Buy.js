@@ -1,6 +1,10 @@
 import React from 'react';
-import './Buy.css';
+import '../../assets/styles/Buy.css';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import Rave from '../../assets/images/BuyPhotos/Rave.png';
+import Zelle from '../../assets/images/BuyPhotos/zelle.png';
+import BethanyQR from '../../assets/images/BuyPhotos/BethanyQR.jpg';
+import Paypal from '../../assets/images/BuyPhotos/paypal.png';
 
 function Buy() {
     return (
@@ -17,7 +21,7 @@ function Buy() {
                     <Col sm={12} md={6} lg={4} className='mb-4'>
                         <Card>
                             <a href="https://www.paypal.com/paypalme/SSGCookbook?v=1&utm_source=unp&utm_medium=email&utm_campaign=RT000269&utm_unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&ppid=RT000269&cnac=US&rsta=en_US%28en-US%29&cust=7HB4Z9TWJHMUY&unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&calc=f602033308832&unp_tpcid=ppme-social-user-profile-created&page=main%3Aemail%3ART000269&pgrp=main%3Aemail&e=cl&mchn=em&s=ci&mail=sys&appVersion=1.175.0&xt=104038%2C124817" target="_blank" rel="noopener noreferrer">
-                                <Card.Img className="cardImage" variant="top" src="/BuyPhotos/paypal.png" />
+                                <Card.Img className="cardImage" variant="top" src={Paypal} />
                             </a>
 
                             <Card.Body>
@@ -45,10 +49,10 @@ function Buy() {
                                 {/* Row for images */}
                                 <Row className="d-flex justify-content-center align-items-center">
                                     <Col xs={7}>
-                                        <Card.Img style={{ padding: '25px' }} variant="top" src="/BuyPhotos/zelle.png" />
+                                        <Card.Img style={{ padding: '25px' }} variant="top" src={Zelle} />
                                     </Col>
                                     <Col xs={5}>
-                                        <Card.Img className="" variant="top" src="/BuyPhotos/BethanyQR.jpg" />
+                                        <Card.Img className="" variant="top" src={BethanyQR} />
                                     </Col>
                                 </Row>
                                 <Card.Title className="mx-auto text-center mb-4 mt-4"><strong>Zelle Payment Instructions</strong></Card.Title>
@@ -70,7 +74,7 @@ function Buy() {
                     <Col sm={12} md={6} lg={4}>
                         <Card>
                             <a href="https://www.gmanageweb.com/HR/Store/#" target="_blank" rel="noopener noreferrer">
-                                <Card.Img className="cardImage" variant="top" src="/BuyPhotos/Rave.png" />
+                                <Card.Img className="cardImage" variant="top" src={Rave} />
                             </a>
                             <Card.Body>
                                 <Card.Title className="mx-auto text-center mb-4"><strong>Rave Store Instructions (Employees Only)</strong></Card.Title>

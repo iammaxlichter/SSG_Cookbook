@@ -1,7 +1,8 @@
 import React from 'react';
+import '../../assets/styles/CustomNavbar.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import './App.css'; // Ensure your CSS file is imported
-import logo from './assets/images/MiscPhotos/ssgCBlogo.png';  // Make sure to import the logo image
+import '../../App.css'; // Ensure your CSS file is imported
+import logo from '../../assets/images/MiscPhotos/ssgCBlogo.png';  // Make sure to import the logo image
 
 function CustomNavbar() {
     const scrollToSection = (sectionId) => {

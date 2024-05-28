@@ -1,6 +1,6 @@
 import React from 'react';
-import './Home.css'; // Make sure your CSS file is properly linked
-import coverImage from './assets/images/HomePhotos/CBCover.png'; // Import the image used in the right column
+import '../../assets/styles/Home.css'; // Make sure your CSS file is properly linked
+import coverImage from '../../assets/images/HomePhotos/CBCover.png'; // Import the image used in the right column
 import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid components
 
 function Home() {

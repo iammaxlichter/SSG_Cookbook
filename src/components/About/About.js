@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/styles/About.css';
-import ImageSlideshow from '../ImageSlideshow'; 
+import ImageSlideshow from './ImageSlideshow'; 
 import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid compo
 import teamPhoto from  '../../assets/images/AboutPhotos/teamPhoto.jpg';
 

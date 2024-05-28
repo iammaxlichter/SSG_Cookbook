@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import '../../assets/styles/Contact.css';
 import ContactForm from './ContactForm'
 import { Container, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
