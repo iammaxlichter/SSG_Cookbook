@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/styles/Contact.css';
 import ContactForm from './ContactForm'
+import CompanyLogo from '../../assets/images/ContactPhotos/ssglogo.png'
 import { Container, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -18,7 +19,7 @@ function Contact() {
                     <Col md={6} className="contact-info" style={{ paddingBottom: '50px' }}>
                         <h2 className='mb-5'>Get in touch</h2>
                         <p>If you have any questions please reach out to us through text or email on the contact details provided below. Also, you can provide your information and send us a message and we will contact you shortly. Thank you!</p>
-                        <img src="/ContactPhotos/ssglogo.png" alt="Company Logo" className="w-75 company-logo pt-5 pb-5" />
+                        <img src={CompanyLogo} alt="Company Logo" className="w-75 company-logo pt-5 pb-5" />
                         <div className="contact-details">
                             <p>Address: 2535-B TX-121 #110, Lewisville, Texas</p>
                             <p>Email: zyadani@southwestsolutions.com</p>
