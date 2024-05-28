@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6992c8b6b0377d10d2503eec45bb7864",
+    "revision": "e2b44ac28a354922030483f2c80e1a61",
     "url": "/ssg_cookbook2/index.html"
   },
   {
-    "revision": "c4f3f59a782026005cee",
+    "revision": "4d090af8c21d2af33911",
     "url": "/ssg_cookbook2/static/css/2.98036eff.chunk.css"
   },
   {
-    "revision": "de9404e8eeb3f15186e6",
+    "revision": "12938be24066ee38d4a8",
     "url": "/ssg_cookbook2/static/css/main.e74092f7.chunk.css"
   },
   {
-    "revision": "c4f3f59a782026005cee",
-    "url": "/ssg_cookbook2/static/js/2.b5bfd8b5.chunk.js"
+    "revision": "4d090af8c21d2af33911",
+    "url": "/ssg_cookbook2/static/js/2.1adf0492.chunk.js"
   },
   {
-    "revision": "47f7eb342e9ec131679f",
-    "url": "/ssg_cookbook2/static/js/3.0db04885.chunk.js"
+    "revision": "21d8eb0bed2f26e73cb4",
+    "url": "/ssg_cookbook2/static/js/3.b1b92a21.chunk.js"
   },
   {
-    "revision": "de9404e8eeb3f15186e6",
-    "url": "/ssg_cookbook2/static/js/main.d6185315.chunk.js"
+    "revision": "12938be24066ee38d4a8",
+    "url": "/ssg_cookbook2/static/js/main.06fd94f4.chunk.js"
   },
   {
-    "revision": "347c1e25968e6ecf540e",
-    "url": "/ssg_cookbook2/static/js/runtime~main.717d3064.js"
+    "revision": "76b7b5817403e805b2a2",
+    "url": "/ssg_cookbook2/static/js/runtime~main.7612a818.js"
   },
   {
     "revision": "41b135d9f59c12c06750906b4e086ab4",
@@ -154,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "209604853ad3927e36126ed7970ac695",
     "url": "/ssg_cookbook2/static/media/ssgCBlogo.20960485.png"
+  },
+  {
+    "revision": "f3b69048ab3cd8727d7e2b8f9ea6034e",
+    "url": "/ssg_cookbook2/static/media/ssglogo.f3b69048.png"
   },
   {
     "revision": "b4c780d6a09b143b5dc0918879747cbd",
