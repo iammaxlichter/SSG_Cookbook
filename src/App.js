@@ -1,7 +1,7 @@
 import React from 'react';
 import CustomNavbar from './CustomNavbar'; // Import your CustomNavbar component
 import Home from './Home'; // Import your CustomNavbar component
-import About from './About';
+import About from './components/About/About';
 import Recipes from './Recipes';
 import Buy from './Buy';
 import Contact from './Contact';

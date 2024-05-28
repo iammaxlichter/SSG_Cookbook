@@ -1,0 +1,34 @@
+.social-media-icons a {
+    color: #000; /* Set the icon color to black */
+    font-size: 24px; /* Increase the size of the icons */
+    margin-right: 15px; /* Increase spacing between the icons */
+}
+
+.social-media-icons a:hover {
+    color: #888; /* Change color on hover to a lighter shade of black (gray) */
+}
+
+
+
+.contact form .form-control {
+    border: 2px solid #004F9B; /* Blue border for input fields */
+    height: 48px; /* Taller input fields for better typing experience */
+}
+
+.contact form .form-label {
+    font-weight: bold; /* Makes labels bold */
+    color: #333; /* Darker text for better readability */
+}
+
+.contact form .btn-custom {
+    background-color: #004F9B; /* Custom blue background for the button */
+    color: white; /* White text for the button */
+    border: none; /* No border for a cleaner look */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    margin-top:20px;
+}
+
+.contact form .btn-custom:hover {
+    background-color: #003a70; /* Darker blue on hover for the button */
+}

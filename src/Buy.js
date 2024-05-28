@@ -16,9 +16,10 @@ function Buy() {
                     {/* PayPal Card */}
                     <Col sm={12} md={6} lg={4} className='mb-4'>
                         <Card>
-                            <a href="https://www.paypal.com/paypalme/SSGCookbook?v=1&utm_source=unp&utm_medium=email&utm_campaign=RT000269&utm_unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&ppid=RT000269&cnac=US&rsta=en_US%28en-US%29&cust=7HB4Z9TWJHMUY&unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&calc=f602033308832&unp_tpcid=ppme-social-user-profile-created&page=main%3Aemail%3ART000269&pgrp=main%3Aemail&e=cl&mchn=em&s=ci&mail=sys&appVersion=1.175.0&xt=104038%2C124817" target="_blank">
+                            <a href="https://www.paypal.com/paypalme/SSGCookbook?v=1&utm_source=unp&utm_medium=email&utm_campaign=RT000269&utm_unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&ppid=RT000269&cnac=US&rsta=en_US%28en-US%29&cust=7HB4Z9TWJHMUY&unptid=aa77db92-0624-11ee-b1ac-40a6b7228275&calc=f602033308832&unp_tpcid=ppme-social-user-profile-created&page=main%3Aemail%3ART000269&pgrp=main%3Aemail&e=cl&mchn=em&s=ci&mail=sys&appVersion=1.175.0&xt=104038%2C124817" target="_blank" rel="noopener noreferrer">
                                 <Card.Img className="cardImage" variant="top" src="/BuyPhotos/paypal.png" />
                             </a>
+
                             <Card.Body>
                                 <Card.Title className="mx-auto text-center mb-4"><strong>PayPal Payment Instructions</strong></Card.Title>
                                 <Card.Text as="div">
@@ -68,7 +69,7 @@ function Buy() {
                     {/* Rave Card */}
                     <Col sm={12} md={6} lg={4}>
                         <Card>
-                            <a href="https://www.gmanageweb.com/HR/Store/#" target="_blank">
+                            <a href="https://www.gmanageweb.com/HR/Store/#" target="_blank" rel="noopener noreferrer">
                                 <Card.Img className="cardImage" variant="top" src="/BuyPhotos/Rave.png" />
                             </a>
                             <Card.Body>

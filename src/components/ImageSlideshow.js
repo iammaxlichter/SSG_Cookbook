@@ -1,5 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
+// Import all images from the AboutPhotos directory
+function importAll(r) {
+    let images = {};
+    r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
+
+const images = importAll(require.context('../assets/images/AboutPhotos', false, /\.(png|jpe?g|svg)$/));
+
 // Array of interns with their images and corresponding LinkedIn URLs
 const internProfiles = [
     { img: 'Alena.jpg', link: 'https://www.linkedin.com/in/alena-raza' },
@@ -40,11 +49,10 @@ function ImageSlideshow() {
         <div className="image-slideshow" style={{ maxWidth: '600px', width: '70vw', margin: 'auto' }}>
             <a href={internProfiles[index].link} target="_blank" rel="noopener noreferrer">
                 <img
-                    src={`/AboutPhotos/${internProfiles[index].img}`} // Direct path reference
+                    src={images[internProfiles[index].img]}
                     alt={getAltText(internProfiles[index].img)}
                     style={{ width: '100%', height: 'auto', maxHeight: '400px', border: '5px solid black' }}
                 />
-
             </a>
         </div>
     );

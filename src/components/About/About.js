@@ -1,9 +1,8 @@
 import React from 'react';
-import './About.css';
-import ImageSlideshow from './ImageSlideshow'; 
-import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid components
-
-const teamPhoto = '/AboutPhotos/teamPhoto.jpg';
+import '../../assets/styles/About.css';
+import ImageSlideshow from '../ImageSlideshow'; 
+import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid compo
+import teamPhoto from  '../../assets/images/AboutPhotos/teamPhoto.jpg';
 
 function About() {
     return (
