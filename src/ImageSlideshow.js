@@ -40,10 +40,11 @@ function ImageSlideshow() {
         <div className="image-slideshow" style={{ maxWidth: '600px', width: '70vw', margin: 'auto' }}>
             <a href={internProfiles[index].link} target="_blank" rel="noopener noreferrer">
                 <img
-                    src={require(`./AboutPhotos/${internProfiles[index].img}`)}
+                    src={`/AboutPhotos/${internProfiles[index].img}`} // Direct path reference
                     alt={getAltText(internProfiles[index].img)}
                     style={{ width: '100%', height: 'auto', maxHeight: '400px', border: '5px solid black' }}
                 />
+
             </a>
         </div>
     );

@@ -12,6 +12,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.buy {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+}
 
 @media (min-width: 992px) { /* Bootstrap 'lg' breakpoint */
   .custom-padding-right {

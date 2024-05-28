@@ -1,13 +1,14 @@
 import React from 'react';
-import teamPhoto from './AboutPhotos/teamPhoto.jpg'; // Import the image used in the right column
 import './About.css';
 import ImageSlideshow from './ImageSlideshow'; 
 import { Container, Row, Col } from 'react-bootstrap'; // Bootstrap grid components
 
+const teamPhoto = '/AboutPhotos/teamPhoto.jpg';
+
 function About() {
     return (
         <div className="about">
-            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '50px', width: '80vw' }}>
+            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '100px', width: '80vw' }}>
                 <Row>
                     <Col md={12} className="text-center mainTitle" style={{  }}>
                         <p className="mainTitle">About the Authors</p>

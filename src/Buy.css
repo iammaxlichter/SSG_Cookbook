@@ -1,0 +1,17 @@
+
+
+
+.paypal-steps li, .zelle-steps li {
+    margin-bottom: 10px; /* Adds space between steps */
+    line-height: 1.5; /* Improves readability by increasing line height */
+}
+
+.paypal-steps li:before, .zelle-steps li:before {
+    margin-right: 5px;
+    font-weight: bold; /* Makes 'Step' bold */
+}
+
+.cardImage {
+    padding:35px;
+}
+

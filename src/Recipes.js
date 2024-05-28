@@ -16,15 +16,15 @@ const recipes = [
 function Recipes() {
     return (
         <div className="recipes">
-            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '100px', width: '80%'}}>
-                <Row className="mb-5">
+            <Container fluid className='align-items-center justify-content-center' style={{ paddingTop: '100px', width: '80%' }}>
+                <Row className="mb-2">
                     <Col md={12} className="text-center mainTitle">
-                        <p className="mainTitle" style={{  }}>Recipes Preview</p>
+                        <p className="mainTitle" style={{}}>Recipes Preview</p>
                     </Col>
                 </Row>
                 <Row>
                     {recipes.map((recipe, index) => (
-                        <Col key={index} xs={12} sm={6} md={4} className="mb-4">
+                        <Col key={index} xs={12} sm={6} md={4} className="">
                             <div className="recipe-image-container">
                                 <img src={`/RecipesPhotos/${recipe.img}`} alt={recipe.title} className="img-fluid" />
                                 <div className="recipe-text">
@@ -34,6 +34,12 @@ function Recipes() {
                             </div>
                         </Col>
                     ))}
+                </Row>
+                <Row>
+                    <Col className="text-center" style={{ paddingBottom: '100px', width: '40%', margin: 'auto', fontSize: '16px' }}>
+                        All of these recipes were donated by SSG employees, friends, and family. <br></br>
+                        Just hover over image to see what the recipe is all about! (click the image if you are are on mobile)
+                    </Col>
                 </Row>
             </Container>
 
