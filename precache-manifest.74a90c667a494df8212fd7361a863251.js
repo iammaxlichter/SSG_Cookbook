@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efd9320f1791338ee7460dd42f0a82aa",
+    "revision": "675650a58551df0e4478a6be787c2201",
     "url": "/SSG_Cookbook/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SSG_Cookbook/static/css/2.98036eff.chunk.css"
   },
   {
-    "revision": "d6933d61683ba0f19b40",
-    "url": "/SSG_Cookbook/static/css/main.7b6f64ee.chunk.css"
+    "revision": "1faeb463a17bb58c2cfb",
+    "url": "/SSG_Cookbook/static/css/main.196fa10e.chunk.css"
   },
   {
     "revision": "4d090af8c21d2af33911",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SSG_Cookbook/static/js/3.b1b92a21.chunk.js"
   },
   {
-    "revision": "d6933d61683ba0f19b40",
+    "revision": "1faeb463a17bb58c2cfb",
     "url": "/SSG_Cookbook/static/js/main.66973162.chunk.js"
   },
   {
