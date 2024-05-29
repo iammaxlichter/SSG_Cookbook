@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SSG_Cookbook/static/css/main.7b6f64ee.chunk.css",
-    "main.js": "/SSG_Cookbook/static/js/main.b6fe0296.chunk.js",
-    "main.js.map": "/SSG_Cookbook/static/js/main.b6fe0296.chunk.js.map",
+    "main.js": "/SSG_Cookbook/static/js/main.66973162.chunk.js",
+    "main.js.map": "/SSG_Cookbook/static/js/main.66973162.chunk.js.map",
     "runtime~main.js": "/SSG_Cookbook/static/js/runtime~main.5c727c2e.js",
     "runtime~main.js.map": "/SSG_Cookbook/static/js/runtime~main.5c727c2e.js.map",
     "static/css/2.98036eff.chunk.css": "/SSG_Cookbook/static/css/2.98036eff.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.b1b92a21.chunk.js": "/SSG_Cookbook/static/js/3.b1b92a21.chunk.js",
     "static/js/3.b1b92a21.chunk.js.map": "/SSG_Cookbook/static/js/3.b1b92a21.chunk.js.map",
     "index.html": "/SSG_Cookbook/index.html",
-    "precache-manifest.6ce9843ab1e41d83a867cb296c865577.js": "/SSG_Cookbook/precache-manifest.6ce9843ab1e41d83a867cb296c865577.js",
+    "precache-manifest.d18ff8f36f6cc8fe69c5fe0bbdfcd6c1.js": "/SSG_Cookbook/precache-manifest.d18ff8f36f6cc8fe69c5fe0bbdfcd6c1.js",
     "service-worker.js": "/SSG_Cookbook/service-worker.js",
     "static/css/2.98036eff.chunk.css.map": "/SSG_Cookbook/static/css/2.98036eff.chunk.css.map",
     "static/css/main.7b6f64ee.chunk.css.map": "/SSG_Cookbook/static/css/main.7b6f64ee.chunk.css.map",
