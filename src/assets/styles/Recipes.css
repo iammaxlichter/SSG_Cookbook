@@ -1,17 +1,23 @@
 .recipes {
-    overflow: hidden; /* Ensures nothing overflows outside this component */
+    overflow: hidden;
+    /* Ensures nothing overflows outside this component */
 }
 
 .mainTitle {
-    z-index: 2; /* Ensures title stays on top */
-    position: relative; /* For z-index to take effect */
-    margin-bottom: 20px; /* Adds some bottom margin for spacing */
+    z-index: 2;
+    /* Ensures title stays on top */
+    position: relative;
+    /* For z-index to take effect */
+    margin-bottom: 20px;
+    /* Adds some bottom margin for spacing */
 }
 
 .recipe-image-container {
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px; /* Increase bottom margin for better spacing */
+    margin-bottom: 30px;
+    padding:0;
+    /* Increase bottom margin for better spacing */
 }
 
 .recipe-text {
@@ -20,7 +26,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7); /* Adjust for better readability */
+    background: rgba(0, 0, 0, 0.7);
+    /* Adjust for better readability */
     color: white;
     display: flex;
     flex-direction: column;
@@ -30,9 +37,15 @@
     transition: opacity 0.3s ease;
     padding: 10px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .recipe-image-container:hover .recipe-text {
     opacity: 1;
 }
 
+@media (max-width: 768px) {
+    .recipe-text {
+        font-size:.75rem;
+    }
+}
